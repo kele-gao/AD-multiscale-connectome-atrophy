@@ -1,0 +1,313 @@
+### Aβ+ CN-NC
+
+                                       Mixed Linear Model Regression Results
+===================================================================================================================
+Model:                               MixedLM                    Dependent Variable:                    Fisher_z_NNR
+No. Observations:                    920                        Method:                                ML          
+No. Groups:                          10                         Scale:                                 0.0014      
+Min. group size:                     40                         Log-Likelihood:                        1692.3297   
+Max. group size:                     140                        Converged:                             Yes         
+Mean group size:                     92.0                                                                          
+-------------------------------------------------------------------------------------------------------------------
+                                                                         Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+-------------------------------------------------------------------------------------------------------------------
+Intercept                                                                 0.156    0.120  1.307 0.191 -0.078  0.390
+C(Network, Treatment(reference='Euclidean'))[T.bSC]                       0.041    0.013  3.179 0.001  0.016  0.067
+C(Network, Treatment(reference='Euclidean'))[T.wSC]                       0.045    0.013  3.440 0.001  0.019  0.070
+C(Network, Treatment(reference='Euclidean'))[T.GC]                        0.030    0.013  2.300 0.021  0.004  0.056
+C(Network, Treatment(reference='Euclidean'))[T.RS]                        0.035    0.013  2.680 0.007  0.009  0.061
+C(Network, Treatment(reference='Euclidean'))[T.LS]                        0.038    0.013  2.885 0.004  0.012  0.063
+C(Network, Treatment(reference='Euclidean'))[T.MC]                       -0.002    0.013 -0.118 0.906 -0.027  0.024
+C(Network, Treatment(reference='Euclidean'))[T.EC]                        0.085    0.013  6.489 0.000  0.059  0.110
+C(Network, Treatment(reference='Euclidean'))[T.TS]                        0.045    0.013  3.438 0.001  0.019  0.070
+C(Network, Treatment(reference='Euclidean'))[T.FC]                        0.047    0.013  3.624 0.000  0.022  0.073
+C(Network, Treatment(reference='Euclidean'))[T.FC90]                      0.046    0.013  3.551 0.000  0.021  0.072
+C(Network, Treatment(reference='Euclidean'))[T.FC80]                      0.044    0.013  3.343 0.001  0.018  0.069
+C(Network, Treatment(reference='Euclidean'))[T.FC70]                      0.046    0.013  3.525 0.000  0.020  0.072
+C(Network, Treatment(reference='Euclidean'))[T.FC60]                      0.056    0.013  4.270 0.000  0.030  0.081
+C(Network, Treatment(reference='Euclidean'))[T.FC50]                      0.067    0.013  5.106 0.000  0.041  0.092
+C(Network, Treatment(reference='Euclidean'))[T.FC40]                      0.060    0.013  4.570 0.000  0.034  0.085
+C(Network, Treatment(reference='Euclidean'))[T.FC30]                      0.067    0.013  5.126 0.000  0.041  0.092
+C(Network, Treatment(reference='Euclidean'))[T.FC20]                      0.075    0.013  5.768 0.000  0.050  0.101
+C(Network, Treatment(reference='Euclidean'))[T.FC10]                      0.082    0.013  6.251 0.000  0.056  0.107
+C(Network, Treatment(reference='Euclidean'))[T.FC5]                       0.032    0.013  2.461 0.014  0.007  0.058
+scan_interval_years                                                       0.001    0.003  0.292 0.771 -0.005  0.007
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.bSC]  -0.005    0.004 -1.386 0.166 -0.013  0.002
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.wSC]  -0.007    0.004 -1.831 0.067 -0.015  0.000
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.GC]   -0.006    0.004 -1.654 0.098 -0.014  0.001
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.RS]   -0.002    0.004 -0.628 0.530 -0.010  0.005
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.LS]   -0.001    0.004 -0.375 0.708 -0.009  0.006
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.MC]   -0.005    0.004 -1.219 0.223 -0.012  0.003
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.EC]   -0.003    0.004 -0.858 0.391 -0.011  0.004
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.TS]   -0.005    0.004 -1.246 0.213 -0.012  0.003
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC]    0.002    0.004  0.604 0.546 -0.005  0.010
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC90]  0.003    0.004  0.736 0.462 -0.005  0.010
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC80]  0.003    0.004  0.805 0.421 -0.004  0.011
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC70]  0.003    0.004  0.877 0.381 -0.004  0.011
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC60]  0.002    0.004  0.447 0.655 -0.006  0.009
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC50] -0.003    0.004 -0.775 0.438 -0.011  0.005
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC40] -0.003    0.004 -0.889 0.374 -0.011  0.004
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC30] -0.004    0.004 -1.023 0.306 -0.012  0.004
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC20] -0.004    0.004 -1.142 0.254 -0.012  0.003
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC10] -0.005    0.004 -1.226 0.220 -0.012  0.003
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC5]  -0.004    0.004 -1.137 0.256 -0.012  0.003
+BaselineAge                                                              -0.000    0.001 -0.087 0.931 -0.003  0.003
+Sex_Code                                                                  0.044    0.018  2.377 0.017  0.008  0.080
+PTEDUCAT                                                                 -0.011    0.003 -3.429 0.001 -0.018 -0.005
+PTHAND                                                                   -0.019    0.022 -0.876 0.381 -0.062  0.024
+Group Var                                                                 0.000    0.004                           
+Group x scan_interval_years Cov                                           0.000    0.001                           
+scan_interval_years Var                                                   0.000                                    
+===================================================================================================================
+
+
+### Aβ+ CN-C
+
+                                       Mixed Linear Model Regression Results
+===================================================================================================================
+Model:                               MixedLM                    Dependent Variable:                    Fisher_z_NNR
+No. Observations:                    800                        Method:                                ML          
+No. Groups:                          10                         Scale:                                 0.0018      
+Min. group size:                     40                         Log-Likelihood:                        1363.6204   
+Max. group size:                     140                        Converged:                             Yes         
+Mean group size:                     80.0                                                                          
+-------------------------------------------------------------------------------------------------------------------
+                                                                         Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+-------------------------------------------------------------------------------------------------------------------
+Intercept                                                                -0.028    0.076 -0.371 0.711 -0.178  0.121
+C(Network, Treatment(reference='Euclidean'))[T.bSC]                       0.002    0.015  0.143 0.887 -0.027  0.031
+C(Network, Treatment(reference='Euclidean'))[T.wSC]                       0.004    0.015  0.251 0.801 -0.025  0.033
+C(Network, Treatment(reference='Euclidean'))[T.GC]                        0.006    0.015  0.432 0.666 -0.023  0.035
+C(Network, Treatment(reference='Euclidean'))[T.RS]                       -0.026    0.015 -1.757 0.079 -0.055  0.003
+C(Network, Treatment(reference='Euclidean'))[T.LS]                       -0.019    0.015 -1.319 0.187 -0.048  0.009
+C(Network, Treatment(reference='Euclidean'))[T.MC]                        0.022    0.015  1.497 0.134 -0.007  0.051
+C(Network, Treatment(reference='Euclidean'))[T.EC]                       -0.003    0.015 -0.216 0.829 -0.032  0.026
+C(Network, Treatment(reference='Euclidean'))[T.TS]                       -0.007    0.015 -0.460 0.646 -0.036  0.022
+C(Network, Treatment(reference='Euclidean'))[T.FC]                        0.011    0.015  0.751 0.453 -0.018  0.040
+C(Network, Treatment(reference='Euclidean'))[T.FC90]                      0.014    0.015  0.968 0.333 -0.015  0.043
+C(Network, Treatment(reference='Euclidean'))[T.FC80]                      0.010    0.015  0.681 0.496 -0.019  0.039
+C(Network, Treatment(reference='Euclidean'))[T.FC70]                      0.008    0.015  0.544 0.587 -0.021  0.037
+C(Network, Treatment(reference='Euclidean'))[T.FC60]                      0.011    0.015  0.735 0.462 -0.018  0.040
+C(Network, Treatment(reference='Euclidean'))[T.FC50]                      0.003    0.015  0.191 0.848 -0.026  0.032
+C(Network, Treatment(reference='Euclidean'))[T.FC40]                      0.026    0.015  1.780 0.075 -0.003  0.055
+C(Network, Treatment(reference='Euclidean'))[T.FC30]                      0.008    0.015  0.545 0.586 -0.021  0.037
+C(Network, Treatment(reference='Euclidean'))[T.FC20]                     -0.001    0.015 -0.054 0.957 -0.030  0.028
+C(Network, Treatment(reference='Euclidean'))[T.FC10]                     -0.023    0.015 -1.583 0.113 -0.052  0.006
+C(Network, Treatment(reference='Euclidean'))[T.FC5]                      -0.017    0.015 -1.173 0.241 -0.046  0.012
+scan_interval_years                                                      -0.005    0.005 -0.862 0.389 -0.015  0.006
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.bSC]   0.003    0.005  0.668 0.504 -0.006  0.012
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.wSC]   0.007    0.005  1.491 0.136 -0.002  0.016
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.GC]   -0.001    0.005 -0.132 0.895 -0.010  0.009
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.RS]    0.006    0.005  1.186 0.236 -0.004  0.015
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.LS]    0.005    0.005  0.968 0.333 -0.005  0.014
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.MC]    0.006    0.005  1.218 0.223 -0.004  0.015
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.EC]    0.002    0.005  0.421 0.674 -0.007  0.011
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.TS]    0.006    0.005  1.174 0.241 -0.004  0.015
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC]    0.003    0.005  0.671 0.502 -0.006  0.012
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC90]  0.002    0.005  0.352 0.725 -0.008  0.011
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC80]  0.003    0.005  0.565 0.572 -0.007  0.012
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC70]  0.005    0.005  1.068 0.285 -0.004  0.014
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC60]  0.008    0.005  1.789 0.074 -0.001  0.018
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC50]  0.011    0.005  2.351 0.019  0.002  0.020
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC40]  0.008    0.005  1.593 0.111 -0.002  0.017
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC30]  0.004    0.005  0.861 0.389 -0.005  0.013
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC20]  0.000    0.005  0.008 0.994 -0.009  0.009
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC10]  0.002    0.005  0.428 0.668 -0.007  0.011
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC5]   0.011    0.005  2.317 0.021  0.002  0.020
+BaselineAge                                                               0.000    0.001  0.230 0.818 -0.001  0.002
+Sex_Code                                                                 -0.007    0.009 -0.712 0.477 -0.025  0.012
+PTEDUCAT                                                                 -0.002    0.003 -0.797 0.425 -0.007  0.003
+PTHAND                                                                    0.038    0.015  2.478 0.013  0.008  0.068
+Group Var                                                                 0.000                                    
+Group x scan_interval_years Cov                                           0.000                                    
+scan_interval_years Var                                                   0.000                                    
+===================================================================================================================
+
+
+### Aβ+ MCI-NC
+
+                                       Mixed Linear Model Regression Results
+===================================================================================================================
+Model:                               MixedLM                    Dependent Variable:                    Fisher_z_NNR
+No. Observations:                    1080                       Method:                                ML          
+No. Groups:                          10                         Scale:                                 0.0016      
+Min. group size:                     40                         Log-Likelihood:                        1915.1632   
+Max. group size:                     140                        Converged:                             Yes         
+Mean group size:                     108.0                                                                         
+-------------------------------------------------------------------------------------------------------------------
+                                                                         Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+-------------------------------------------------------------------------------------------------------------------
+Intercept                                                                 0.203    0.169  1.199 0.230 -0.129  0.534
+C(Network, Treatment(reference='Euclidean'))[T.bSC]                       0.042    0.014  3.028 0.002  0.015  0.069
+C(Network, Treatment(reference='Euclidean'))[T.wSC]                       0.038    0.014  2.800 0.005  0.012  0.065
+C(Network, Treatment(reference='Euclidean'))[T.GC]                        0.016    0.014  1.164 0.245 -0.011  0.043
+C(Network, Treatment(reference='Euclidean'))[T.RS]                        0.016    0.014  1.182 0.237 -0.011  0.043
+C(Network, Treatment(reference='Euclidean'))[T.LS]                        0.024    0.014  1.778 0.075 -0.003  0.051
+C(Network, Treatment(reference='Euclidean'))[T.MC]                        0.001    0.014  0.066 0.948 -0.026  0.028
+C(Network, Treatment(reference='Euclidean'))[T.EC]                        0.037    0.014  2.695 0.007  0.010  0.064
+C(Network, Treatment(reference='Euclidean'))[T.TS]                        0.024    0.014  1.714 0.087 -0.003  0.051
+C(Network, Treatment(reference='Euclidean'))[T.FC]                        0.015    0.014  1.123 0.261 -0.012  0.042
+C(Network, Treatment(reference='Euclidean'))[T.FC90]                      0.022    0.014  1.622 0.105 -0.005  0.049
+C(Network, Treatment(reference='Euclidean'))[T.FC80]                      0.018    0.014  1.313 0.189 -0.009  0.045
+C(Network, Treatment(reference='Euclidean'))[T.FC70]                      0.022    0.014  1.608 0.108 -0.005  0.049
+C(Network, Treatment(reference='Euclidean'))[T.FC60]                      0.030    0.014  2.208 0.027  0.003  0.057
+C(Network, Treatment(reference='Euclidean'))[T.FC50]                      0.037    0.014  2.721 0.007  0.010  0.064
+C(Network, Treatment(reference='Euclidean'))[T.FC40]                      0.047    0.014  3.450 0.001  0.020  0.074
+C(Network, Treatment(reference='Euclidean'))[T.FC30]                      0.047    0.014  3.440 0.001  0.020  0.074
+C(Network, Treatment(reference='Euclidean'))[T.FC20]                      0.049    0.014  3.584 0.000  0.022  0.076
+C(Network, Treatment(reference='Euclidean'))[T.FC10]                      0.035    0.014  2.547 0.011  0.008  0.062
+C(Network, Treatment(reference='Euclidean'))[T.FC5]                       0.016    0.014  1.191 0.234 -0.011  0.043
+scan_interval_years                                                      -0.000    0.003 -0.058 0.953 -0.006  0.006
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.bSC]  -0.003    0.004 -0.641 0.522 -0.011  0.005
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.wSC]  -0.002    0.004 -0.457 0.647 -0.010  0.006
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.GC]    0.002    0.004  0.400 0.689 -0.006  0.010
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.RS]    0.000    0.004  0.006 0.996 -0.008  0.008
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.LS]    0.002    0.004  0.602 0.547 -0.006  0.011
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.MC]    0.002    0.004  0.444 0.657 -0.006  0.010
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.EC]    0.001    0.004  0.228 0.820 -0.007  0.009
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.TS]    0.002    0.004  0.490 0.624 -0.006  0.010
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC]    0.000    0.004  0.001 0.999 -0.008  0.008
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC90]  0.000    0.004  0.041 0.967 -0.008  0.008
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC80]  0.000    0.004  0.019 0.985 -0.008  0.008
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC70]  0.000    0.004  0.061 0.952 -0.008  0.008
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC60]  0.001    0.004  0.181 0.856 -0.007  0.009
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC50]  0.001    0.004  0.339 0.735 -0.007  0.009
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC40]  0.001    0.004  0.322 0.747 -0.007  0.009
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC30]  0.002    0.004  0.398 0.690 -0.006  0.010
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC20]  0.001    0.004  0.142 0.887 -0.007  0.009
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC10] -0.001    0.004 -0.123 0.902 -0.009  0.008
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC5]   0.000    0.004  0.091 0.928 -0.008  0.008
+BaselineAge                                                               0.001    0.001  0.391 0.695 -0.002  0.003
+Sex_Code                                                                  0.023    0.016  1.485 0.137 -0.007  0.054
+PTEDUCAT                                                                 -0.013    0.012 -1.091 0.275 -0.036  0.010
+PTHAND                                                                   -0.058    0.026 -2.225 0.026 -0.109 -0.007
+Group Var                                                                 0.001    0.013                           
+Group x scan_interval_years Cov                                          -0.000    0.001                           
+scan_interval_years Var                                                   0.000    0.000                           
+===================================================================================================================
+
+
+### Aβ+ MCI-C
+
+                                       Mixed Linear Model Regression Results
+===================================================================================================================
+Model:                               MixedLM                    Dependent Variable:                    Fisher_z_NNR
+No. Observations:                    780                        Method:                                ML          
+No. Groups:                          10                         Scale:                                 0.0014      
+Min. group size:                     40                         Log-Likelihood:                        1443.3486   
+Max. group size:                     140                        Converged:                             Yes         
+Mean group size:                     78.0                                                                          
+-------------------------------------------------------------------------------------------------------------------
+                                                                         Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+-------------------------------------------------------------------------------------------------------------------
+Intercept                                                                 0.521    0.174  3.005 0.003  0.181  0.862
+C(Network, Treatment(reference='Euclidean'))[T.bSC]                       0.101    0.013  7.583 0.000  0.075  0.127
+C(Network, Treatment(reference='Euclidean'))[T.wSC]                       0.091    0.013  6.807 0.000  0.065  0.117
+C(Network, Treatment(reference='Euclidean'))[T.GC]                        0.106    0.013  7.985 0.000  0.080  0.132
+C(Network, Treatment(reference='Euclidean'))[T.RS]                        0.074    0.013  5.564 0.000  0.048  0.100
+C(Network, Treatment(reference='Euclidean'))[T.LS]                        0.137    0.013 10.299 0.000  0.111  0.163
+C(Network, Treatment(reference='Euclidean'))[T.MC]                        0.044    0.013  3.319 0.001  0.018  0.070
+C(Network, Treatment(reference='Euclidean'))[T.EC]                        0.138    0.013 10.342 0.000  0.112  0.164
+C(Network, Treatment(reference='Euclidean'))[T.TS]                        0.096    0.013  7.221 0.000  0.070  0.122
+C(Network, Treatment(reference='Euclidean'))[T.FC]                        0.068    0.013  5.145 0.000  0.042  0.095
+C(Network, Treatment(reference='Euclidean'))[T.FC90]                      0.078    0.013  5.858 0.000  0.052  0.104
+C(Network, Treatment(reference='Euclidean'))[T.FC80]                      0.089    0.013  6.688 0.000  0.063  0.115
+C(Network, Treatment(reference='Euclidean'))[T.FC70]                      0.106    0.013  7.983 0.000  0.080  0.132
+C(Network, Treatment(reference='Euclidean'))[T.FC60]                      0.121    0.013  9.084 0.000  0.095  0.147
+C(Network, Treatment(reference='Euclidean'))[T.FC50]                      0.134    0.013 10.042 0.000  0.108  0.160
+C(Network, Treatment(reference='Euclidean'))[T.FC40]                      0.143    0.013 10.775 0.000  0.117  0.170
+C(Network, Treatment(reference='Euclidean'))[T.FC30]                      0.135    0.013 10.161 0.000  0.109  0.161
+C(Network, Treatment(reference='Euclidean'))[T.FC20]                      0.139    0.013 10.470 0.000  0.113  0.165
+C(Network, Treatment(reference='Euclidean'))[T.FC10]                      0.137    0.013 10.286 0.000  0.111  0.163
+C(Network, Treatment(reference='Euclidean'))[T.FC5]                       0.091    0.013  6.872 0.000  0.065  0.118
+scan_interval_years                                                       0.004    0.007  0.686 0.493 -0.008  0.017
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.bSC]  -0.011    0.004 -2.464 0.014 -0.019 -0.002
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.wSC]  -0.009    0.004 -2.079 0.038 -0.018 -0.001
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.GC]   -0.007    0.004 -1.503 0.133 -0.015  0.002
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.RS]   -0.007    0.004 -1.726 0.084 -0.016  0.001
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.LS]   -0.005    0.004 -1.209 0.227 -0.014  0.003
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.MC]   -0.010    0.004 -2.204 0.027 -0.018 -0.001
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.EC]   -0.001    0.004 -0.194 0.846 -0.009  0.008
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.TS]   -0.009    0.004 -2.069 0.039 -0.017 -0.000
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC]   -0.004    0.004 -0.930 0.352 -0.013  0.004
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC90] -0.003    0.004 -0.791 0.429 -0.012  0.005
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC80] -0.004    0.004 -0.915 0.360 -0.012  0.005
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC70] -0.005    0.004 -1.070 0.285 -0.013  0.004
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC60] -0.004    0.004 -0.922 0.357 -0.013  0.005
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC50] -0.005    0.004 -1.162 0.245 -0.014  0.003
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC40] -0.002    0.004 -0.560 0.575 -0.011  0.006
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC30] -0.003    0.004 -0.608 0.543 -0.011  0.006
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC20] -0.002    0.004 -0.409 0.683 -0.010  0.007
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC10] -0.001    0.004 -0.306 0.760 -0.010  0.007
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC5]  -0.002    0.004 -0.403 0.687 -0.010  0.007
+BaselineAge                                                              -0.006    0.001 -3.976 0.000 -0.008 -0.003
+Sex_Code                                                                 -0.048    0.016 -2.927 0.003 -0.081 -0.016
+PTEDUCAT                                                                  0.000    0.005  0.063 0.950 -0.010  0.011
+PTHAND                                                                   -0.135    0.026 -5.191 0.000 -0.186 -0.084
+Group Var                                                                 0.000    0.001                           
+Group x scan_interval_years Cov                                          -0.000    0.002                           
+scan_interval_years Var                                                   0.000                                    
+===================================================================================================================
+
+
+### Aβ+ AD
+
+                                       Mixed Linear Model Regression Results
+===================================================================================================================
+Model:                               MixedLM                    Dependent Variable:                    Fisher_z_NNR
+No. Observations:                    900                        Method:                                ML          
+No. Groups:                          10                         Scale:                                 0.0021      
+Min. group size:                     40                         Log-Likelihood:                        1478.6776   
+Max. group size:                     140                        Converged:                             No          
+Mean group size:                     90.0                                                                          
+-------------------------------------------------------------------------------------------------------------------
+                                                                         Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+-------------------------------------------------------------------------------------------------------------------
+Intercept                                                                -0.136    0.057 -2.382 0.017 -0.247 -0.024
+C(Network, Treatment(reference='Euclidean'))[T.bSC]                       0.094    0.016  6.048 0.000  0.064  0.125
+C(Network, Treatment(reference='Euclidean'))[T.wSC]                       0.092    0.016  5.872 0.000  0.061  0.122
+C(Network, Treatment(reference='Euclidean'))[T.GC]                        0.082    0.016  5.261 0.000  0.052  0.113
+C(Network, Treatment(reference='Euclidean'))[T.RS]                        0.083    0.016  5.323 0.000  0.053  0.114
+C(Network, Treatment(reference='Euclidean'))[T.LS]                        0.115    0.016  7.380 0.000  0.085  0.146
+C(Network, Treatment(reference='Euclidean'))[T.MC]                        0.066    0.016  4.246 0.000  0.036  0.097
+C(Network, Treatment(reference='Euclidean'))[T.EC]                        0.142    0.016  9.077 0.000  0.111  0.172
+C(Network, Treatment(reference='Euclidean'))[T.TS]                        0.087    0.016  5.547 0.000  0.056  0.117
+C(Network, Treatment(reference='Euclidean'))[T.FC]                        0.069    0.016  4.412 0.000  0.038  0.099
+C(Network, Treatment(reference='Euclidean'))[T.FC90]                      0.082    0.016  5.253 0.000  0.051  0.113
+C(Network, Treatment(reference='Euclidean'))[T.FC80]                      0.087    0.016  5.580 0.000  0.057  0.118
+C(Network, Treatment(reference='Euclidean'))[T.FC70]                      0.105    0.016  6.734 0.000  0.075  0.136
+C(Network, Treatment(reference='Euclidean'))[T.FC60]                      0.115    0.016  7.360 0.000  0.084  0.146
+C(Network, Treatment(reference='Euclidean'))[T.FC50]                      0.117    0.016  7.506 0.000  0.087  0.148
+C(Network, Treatment(reference='Euclidean'))[T.FC40]                      0.128    0.016  8.218 0.000  0.098  0.159
+C(Network, Treatment(reference='Euclidean'))[T.FC30]                      0.139    0.016  8.895 0.000  0.108  0.169
+C(Network, Treatment(reference='Euclidean'))[T.FC20]                      0.145    0.016  9.313 0.000  0.115  0.176
+C(Network, Treatment(reference='Euclidean'))[T.FC10]                      0.120    0.016  7.670 0.000  0.089  0.150
+C(Network, Treatment(reference='Euclidean'))[T.FC5]                       0.076    0.016  4.856 0.000  0.045  0.106
+scan_interval_years                                                      -0.001    0.003 -0.448 0.654 -0.008  0.005
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.bSC]  -0.001    0.004 -0.282 0.778 -0.010  0.007
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.wSC]  -0.001    0.004 -0.230 0.818 -0.010  0.008
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.GC]   -0.000    0.004 -0.000 1.000 -0.009  0.009
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.RS]   -0.000    0.004 -0.057 0.955 -0.009  0.008
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.LS]    0.005    0.004  1.036 0.300 -0.004  0.013
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.MC]   -0.001    0.004 -0.182 0.856 -0.009  0.008
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.EC]   -0.003    0.004 -0.704 0.481 -0.012  0.006
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.TS]   -0.006    0.004 -1.284 0.199 -0.014  0.003
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC]    0.000    0.004  0.032 0.974 -0.008  0.009
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC90] -0.001    0.004 -0.138 0.890 -0.009  0.008
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC80] -0.002    0.004 -0.504 0.614 -0.011  0.006
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC70] -0.003    0.004 -0.731 0.465 -0.012  0.005
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC60] -0.002    0.004 -0.426 0.670 -0.010  0.007
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC50] -0.000    0.004 -0.068 0.946 -0.009  0.008
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC40] -0.002    0.004 -0.343 0.732 -0.010  0.007
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC30] -0.001    0.004 -0.227 0.820 -0.010  0.008
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC20] -0.002    0.004 -0.444 0.657 -0.011  0.007
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC10]  0.003    0.004  0.609 0.543 -0.006  0.011
+scan_interval_years:C(Network, Treatment(reference='Euclidean'))[T.FC5]   0.006    0.004  1.444 0.149 -0.002  0.015
+BaselineAge                                                               0.001    0.001  1.244 0.214 -0.001  0.002
+Sex_Code                                                                 -0.018    0.013 -1.340 0.180 -0.044  0.008
+PTEDUCAT                                                                  0.006    0.002  4.005 0.000  0.003  0.009
+PTHAND                                                                   -0.060    0.011 -5.348 0.000 -0.083 -0.038
+Group Var                                                                 0.000    0.001                           
+Group x scan_interval_years Cov                                          -0.000    0.000                           
+scan_interval_years Var                                                   0.000                                    
+===================================================================================================================
